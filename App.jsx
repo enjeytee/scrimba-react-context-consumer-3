@@ -28,6 +28,7 @@ class App extends React.Component {
                                     value={this.state.newUsername}
                                     onChange={this.handleChange}
                                 />
+                                <br />
                                 <button onClick={() => changeUsername(this.state.newUsername)}>Change Username</button>
                             </main>
                         )}
